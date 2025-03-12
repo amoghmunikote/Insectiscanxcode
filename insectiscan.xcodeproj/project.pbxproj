@@ -6,6 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D12BE36B2D7FC096002C883B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12BE3612D7E89C1002C883B /* MainTabBarController.swift */; };
+		D12BE36C2D7FC0A5002C883B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12BE3622D7E89D1002C883B /* CameraViewController.swift */; };
+		D12BE36D2D7FC0AB002C883B /* ImagePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12BE3632D7E89DD002C883B /* ImagePreviewViewController.swift */; };
+		D12BE36E2D7FC0B0002C883B /* RiskAssessmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12BE3642D7E89E8002C883B /* RiskAssessmentViewController.swift */; };
+		D12BE36F2D7FC0B5002C883B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12BE3662D7E8A0C002C883B /* MapViewController.swift */; };
+		D12BE3702D7FC0BA002C883B /* CountryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12BE3672D7E8A18002C883B /* CountryDetailViewController.swift */; };
+		D12BE3722D7FC0C4002C883B /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12BE3692D7E8A45002C883B /* CountryCell.swift */; };
+		D12BE3732D7FC0C9002C883B /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12BE36A2D7E8A50002C883B /* Country.swift */; };
+		D12BE3752D7FD094002C883B /* UINavigationController+Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12BE3742D7FD091002C883B /* UINavigationController+Transitions.swift */; };
+		D12BE3772D7FD445002C883B /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12BE3762D7FD437002C883B /* AccountViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D12BE3412D7E892E002C883B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +40,16 @@
 		D12BE32A2D7E892B002C883B /* insectiscan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = insectiscan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12BE3402D7E892E002C883B /* insectiscanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = insectiscanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12BE34A2D7E892E002C883B /* insectiscanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = insectiscanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12BE3612D7E89C1002C883B /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		D12BE3622D7E89D1002C883B /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		D12BE3632D7E89DD002C883B /* ImagePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewViewController.swift; sourceTree = "<group>"; };
+		D12BE3642D7E89E8002C883B /* RiskAssessmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskAssessmentViewController.swift; sourceTree = "<group>"; };
+		D12BE3662D7E8A0C002C883B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D12BE3672D7E8A18002C883B /* CountryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewController.swift; sourceTree = "<group>"; };
+		D12BE3692D7E8A45002C883B /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
+		D12BE36A2D7E8A50002C883B /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		D12BE3742D7FD091002C883B /* UINavigationController+Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Transitions.swift"; sourceTree = "<group>"; };
+		D12BE3762D7FD437002C883B /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +111,9 @@
 		D12BE3212D7E892B002C883B = {
 			isa = PBXGroup;
 			children = (
+				D12BE3602D7E89A4002C883B /* models */,
+				D12BE35F2D7E899B002C883B /* viewsj */,
+				D12BE35E2D7E8991002C883B /* controllers */,
 				D12BE32C2D7E892B002C883B /* insectiscan */,
 				D12BE3432D7E892E002C883B /* insectiscanTests */,
 				D12BE34D2D7E892E002C883B /* insectiscanUITests */,
@@ -103,6 +129,37 @@
 				D12BE34A2D7E892E002C883B /* insectiscanUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D12BE35E2D7E8991002C883B /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D12BE3762D7FD437002C883B /* AccountViewController.swift */,
+				D12BE3742D7FD091002C883B /* UINavigationController+Transitions.swift */,
+				D12BE3672D7E8A18002C883B /* CountryDetailViewController.swift */,
+				D12BE3662D7E8A0C002C883B /* MapViewController.swift */,
+				D12BE3642D7E89E8002C883B /* RiskAssessmentViewController.swift */,
+				D12BE3632D7E89DD002C883B /* ImagePreviewViewController.swift */,
+				D12BE3622D7E89D1002C883B /* CameraViewController.swift */,
+				D12BE3612D7E89C1002C883B /* MainTabBarController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		D12BE35F2D7E899B002C883B /* viewsj */ = {
+			isa = PBXGroup;
+			children = (
+				D12BE3692D7E8A45002C883B /* CountryCell.swift */,
+			);
+			path = viewsj;
+			sourceTree = "<group>";
+		};
+		D12BE3602D7E89A4002C883B /* models */ = {
+			isa = PBXGroup;
+			children = (
+				D12BE36A2D7E8A50002C883B /* Country.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +306,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D12BE36E2D7FC0B0002C883B /* RiskAssessmentViewController.swift in Sources */,
+				D12BE3772D7FD445002C883B /* AccountViewController.swift in Sources */,
+				D12BE36C2D7FC0A5002C883B /* CameraViewController.swift in Sources */,
+				D12BE3732D7FC0C9002C883B /* Country.swift in Sources */,
+				D12BE3722D7FC0C4002C883B /* CountryCell.swift in Sources */,
+				D12BE36B2D7FC096002C883B /* MainTabBarController.swift in Sources */,
+				D12BE36D2D7FC0AB002C883B /* ImagePreviewViewController.swift in Sources */,
+				D12BE3702D7FC0BA002C883B /* CountryDetailViewController.swift in Sources */,
+				D12BE3752D7FD094002C883B /* UINavigationController+Transitions.swift in Sources */,
+				D12BE36F2D7FC0B5002C883B /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
