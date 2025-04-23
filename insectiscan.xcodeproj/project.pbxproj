@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		335732E5C8394B004A52D54C /* Pods_insectiscan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4F0DC1FA7308E78B4EFA04 /* Pods_insectiscan.framework */; };
+		6AA8B934C533486F92BD95E6 /* Pods_insectiscan_insectiscanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA22460AF50AB635D2DFA335 /* Pods_insectiscan_insectiscanUITests.framework */; };
+		8998DF3E46C4BFAE053FCD38 /* Pods_insectiscanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64091208D50A14F33CC75FDA /* Pods_insectiscanTests.framework */; };
+		CA0A146F2D9F680000FD1974 /* output_labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = CA0A146E2D9F680000FD1974 /* output_labels.txt */; };
+		CA0A14CD2D9F761300FD1974 /* converted_model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = CA0A14CC2D9F761300FD1974 /* converted_model.tflite */; };
 		D12BE36B2D7FC096002C883B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12BE3612D7E89C1002C883B /* MainTabBarController.swift */; };
 		D12BE36C2D7FC0A5002C883B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12BE3622D7E89D1002C883B /* CameraViewController.swift */; };
 		D12BE36D2D7FC0AB002C883B /* ImagePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12BE3632D7E89DD002C883B /* ImagePreviewViewController.swift */; };
@@ -37,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16AD19AB1E46B37C1BD3EE22 /* Pods-insectiscan-insectiscanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insectiscan-insectiscanUITests.release.xcconfig"; path = "Target Support Files/Pods-insectiscan-insectiscanUITests/Pods-insectiscan-insectiscanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2114B23022C24E85DD69A183 /* Pods-insectiscan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insectiscan.debug.xcconfig"; path = "Target Support Files/Pods-insectiscan/Pods-insectiscan.debug.xcconfig"; sourceTree = "<group>"; };
+		3C4F0DC1FA7308E78B4EFA04 /* Pods_insectiscan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_insectiscan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5359F19D7D1B796F17DDEBAA /* Pods-insectiscanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insectiscanTests.debug.xcconfig"; path = "Target Support Files/Pods-insectiscanTests/Pods-insectiscanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		64091208D50A14F33CC75FDA /* Pods_insectiscanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_insectiscanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C1C4CC9E8BB71E223BF305 /* Pods-insectiscan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insectiscan.release.xcconfig"; path = "Target Support Files/Pods-insectiscan/Pods-insectiscan.release.xcconfig"; sourceTree = "<group>"; };
+		CA0A146E2D9F680000FD1974 /* output_labels.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = output_labels.txt; sourceTree = "<group>"; };
+		CA0A14CC2D9F761300FD1974 /* converted_model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = converted_model.tflite; sourceTree = "<group>"; };
 		D12BE32A2D7E892B002C883B /* insectiscan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = insectiscan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12BE3402D7E892E002C883B /* insectiscanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = insectiscanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12BE34A2D7E892E002C883B /* insectiscanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = insectiscanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +63,9 @@
 		D12BE36A2D7E8A50002C883B /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		D12BE3742D7FD091002C883B /* UINavigationController+Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Transitions.swift"; sourceTree = "<group>"; };
 		D12BE3762D7FD437002C883B /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		EB9867AF5324AD98B16C0EDF /* Pods-insectiscan-insectiscanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insectiscan-insectiscanUITests.debug.xcconfig"; path = "Target Support Files/Pods-insectiscan-insectiscanUITests/Pods-insectiscan-insectiscanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA22460AF50AB635D2DFA335 /* Pods_insectiscan_insectiscanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_insectiscan_insectiscanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF192F521E0907F2950E4722 /* Pods-insectiscanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insectiscanTests.release.xcconfig"; path = "Target Support Files/Pods-insectiscanTests/Pods-insectiscanTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				335732E5C8394B004A52D54C /* Pods_insectiscan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8998DF3E46C4BFAE053FCD38 /* Pods_insectiscanTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,12 +120,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AA8B934C533486F92BD95E6 /* Pods_insectiscan_insectiscanUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		633078E3E7719C3FD20DAF37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C4F0DC1FA7308E78B4EFA04 /* Pods_insectiscan.framework */,
+				FA22460AF50AB635D2DFA335 /* Pods_insectiscan_insectiscanUITests.framework */,
+				64091208D50A14F33CC75FDA /* Pods_insectiscanTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D12BE3212D7E892B002C883B = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +147,8 @@
 				D12BE3432D7E892E002C883B /* insectiscanTests */,
 				D12BE34D2D7E892E002C883B /* insectiscanUITests */,
 				D12BE32B2D7E892B002C883B /* Products */,
+				E9CFDC5E51406252FB77AE62 /* Pods */,
+				633078E3E7719C3FD20DAF37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,9 +188,24 @@
 		D12BE3602D7E89A4002C883B /* models */ = {
 			isa = PBXGroup;
 			children = (
+				CA0A14CC2D9F761300FD1974 /* converted_model.tflite */,
+				CA0A146E2D9F680000FD1974 /* output_labels.txt */,
 				D12BE36A2D7E8A50002C883B /* Country.swift */,
 			);
 			path = models;
+			sourceTree = "<group>";
+		};
+		E9CFDC5E51406252FB77AE62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2114B23022C24E85DD69A183 /* Pods-insectiscan.debug.xcconfig */,
+				84C1C4CC9E8BB71E223BF305 /* Pods-insectiscan.release.xcconfig */,
+				EB9867AF5324AD98B16C0EDF /* Pods-insectiscan-insectiscanUITests.debug.xcconfig */,
+				16AD19AB1E46B37C1BD3EE22 /* Pods-insectiscan-insectiscanUITests.release.xcconfig */,
+				5359F19D7D1B796F17DDEBAA /* Pods-insectiscanTests.debug.xcconfig */,
+				FF192F521E0907F2950E4722 /* Pods-insectiscanTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D12BE3532D7E892E002C883B /* Build configuration list for PBXNativeTarget "insectiscan" */;
 			buildPhases = (
+				B6C891CA8BCBA95AF1C7DEAE /* [CP] Check Pods Manifest.lock */,
 				D12BE3262D7E892B002C883B /* Sources */,
 				D12BE3272D7E892B002C883B /* Frameworks */,
 				D12BE3282D7E892B002C883B /* Resources */,
@@ -181,8 +228,6 @@
 				D12BE32C2D7E892B002C883B /* insectiscan */,
 			);
 			name = insectiscan;
-			packageProductDependencies = (
-			);
 			productName = insectiscan;
 			productReference = D12BE32A2D7E892B002C883B /* insectiscan.app */;
 			productType = "com.apple.product-type.application";
@@ -191,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D12BE3582D7E892E002C883B /* Build configuration list for PBXNativeTarget "insectiscanTests" */;
 			buildPhases = (
+				794CB16FC3DCD0AB5570C425 /* [CP] Check Pods Manifest.lock */,
 				D12BE33C2D7E892E002C883B /* Sources */,
 				D12BE33D2D7E892E002C883B /* Frameworks */,
 				D12BE33E2D7E892E002C883B /* Resources */,
@@ -204,8 +250,6 @@
 				D12BE3432D7E892E002C883B /* insectiscanTests */,
 			);
 			name = insectiscanTests;
-			packageProductDependencies = (
-			);
 			productName = insectiscanTests;
 			productReference = D12BE3402D7E892E002C883B /* insectiscanTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -214,6 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D12BE35B2D7E892E002C883B /* Build configuration list for PBXNativeTarget "insectiscanUITests" */;
 			buildPhases = (
+				737B893810CC780F04D4E230 /* [CP] Check Pods Manifest.lock */,
 				D12BE3462D7E892E002C883B /* Sources */,
 				D12BE3472D7E892E002C883B /* Frameworks */,
 				D12BE3482D7E892E002C883B /* Resources */,
@@ -227,8 +272,6 @@
 				D12BE34D2D7E892E002C883B /* insectiscanUITests */,
 			);
 			name = insectiscanUITests;
-			packageProductDependencies = (
-			);
 			productName = insectiscanUITests;
 			productReference = D12BE34A2D7E892E002C883B /* insectiscanUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -265,6 +308,9 @@
 			);
 			mainGroup = D12BE3212D7E892B002C883B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CA83B85F2D9F04A100124197 /* XCRemoteSwiftPackageReference "tensorflow" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D12BE32B2D7E892B002C883B /* Products */;
 			projectDirPath = "";
@@ -282,6 +328,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA0A14CD2D9F761300FD1974 /* converted_model.tflite in Resources */,
+				CA0A146F2D9F680000FD1974 /* output_labels.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +348,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		737B893810CC780F04D4E230 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-insectiscan-insectiscanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		794CB16FC3DCD0AB5570C425 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-insectiscanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6C891CA8BCBA95AF1C7DEAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-insectiscan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D12BE3262D7E892B002C883B /* Sources */ = {
@@ -351,6 +468,7 @@
 /* Begin XCBuildConfiguration section */
 		D12BE3542D7E892E002C883B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2114B23022C24E85DD69A183 /* Pods-insectiscan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -378,6 +496,7 @@
 		};
 		D12BE3552D7E892E002C883B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C1C4CC9E8BB71E223BF305 /* Pods-insectiscan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -524,6 +643,7 @@
 		};
 		D12BE3592D7E892E002C883B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5359F19D7D1B796F17DDEBAA /* Pods-insectiscanTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -542,6 +662,7 @@
 		};
 		D12BE35A2D7E892E002C883B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF192F521E0907F2950E4722 /* Pods-insectiscanTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -560,6 +681,7 @@
 		};
 		D12BE35C2D7E892E002C883B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB9867AF5324AD98B16C0EDF /* Pods-insectiscan-insectiscanUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -576,6 +698,7 @@
 		};
 		D12BE35D2D7E892E002C883B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16AD19AB1E46B37C1BD3EE22 /* Pods-insectiscan-insectiscanUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -630,6 +753,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CA83B85F2D9F04A100124197 /* XCRemoteSwiftPackageReference "tensorflow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tensorflow/tensorflow.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.12.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = D12BE3222D7E892B002C883B /* Project object */;
 }

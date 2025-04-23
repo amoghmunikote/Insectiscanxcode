@@ -1,0 +1,6 @@
+framework module Pods_insectiscanTests {
+  umbrella header "Pods-insectiscanTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
