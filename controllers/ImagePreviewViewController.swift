@@ -148,7 +148,7 @@ class ImagePreviewViewController: UIViewController {
             return nil
         }
 
-        let classNames = ["Low Risk", "Medium Risk", "High Risk"]
+        let classNames = ["Bee", "Mosquito", "None", "Spider", "Tick"]
         var results: [String: Float] = [:]
         for (index, probability) in outputData.enumerated() where index < classNames.count {
             results[classNames[index]] = probability
@@ -159,19 +159,8 @@ class ImagePreviewViewController: UIViewController {
     private func displayResults(_ results: [String: Float]) {
         guard let highest = results.max(by: { $0.value < $1.value }) else { return }
         let probability = (highest.value * 100).rounded() / 100
-        resultLabel.text = "Assessment: \(highest.key) (\(probability))"
-
-        switch highest.key {
-        case "Low Risk":
-            resultLabel.textColor = .green
-        case "Medium Risk":
-            resultLabel.textColor = .orange
-        case "High Risk":
-            resultLabel.textColor = .red
-        default:
-            resultLabel.textColor = .black
-        }
-
+        resultLabel.text = "Likely: \(highest.key.capitalized) (\(probability * 100)%)"
+        resultLabel.textColor = .black
         resultLabel.isHidden = false
     }
 
